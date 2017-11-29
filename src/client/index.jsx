@@ -1,7 +1,6 @@
 // @flow
-
+import 'materialize-css/dist/css/materialize.css'
 import 'babel-polyfill'
-
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { AppContainer } from 'react-hot-loader'
@@ -11,6 +10,7 @@ import thunkMiddleware from 'redux-thunk'
 import { BrowserRouter } from 'react-router-dom'
 // flow-disable-next-line
 import Immutable from 'immutable'
+import 'materialize-css'
 import App from '../shared/app'
 import helloReducer from '../shared/reducer/hello'
 import { APP_CONTAINER_SELECTOR } from '../shared/config'
