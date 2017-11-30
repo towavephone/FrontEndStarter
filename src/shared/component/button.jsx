@@ -8,6 +8,6 @@ type Props = {
 }
 
 const Button = ({ label, handleClick }: Props) =>
-  <button onClick={handleClick}>{label}</button>
+  <button className="waves-effect waves-light btn" onClick={handleClick}>{label}</button>
 
 export default Button

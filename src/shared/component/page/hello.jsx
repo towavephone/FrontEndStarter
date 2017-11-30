@@ -7,7 +7,7 @@ import Message from '../../container/message'
 
 const title = 'Hello Page'
 const HelloPage = () =>
-  <div>
+  <div className="center-align">
     <Helmet
       title={title}
       meta={[
@@ -15,7 +15,6 @@ const HelloPage = () =>
         { property: 'og:title', content: title },
       ]}
     />
-    <h1>{title}</h1>
     <Message />
     <HelloButton />
   </div>
