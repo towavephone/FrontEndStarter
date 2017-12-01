@@ -1,4 +1,6 @@
 # 前端模板脚手架
+[![Build Status](https://img.shields.io/travis/towavephone/MD-Blog.svg?style=flat-square)](https://travis-ci.org/towavephone/MD-Blog)
+[![Coverage Status](https://img.shields.io/coveralls/towavephone/MD-Blog.svg?style=flat-square)](https://coveralls.io/github/towavephone/MD-Blog?branch=master)
 ## 技术栈
 1. [从零开始构建 JavaScript 技术栈](https://github.com/yepbug/js-stack-from-scratch)
 1. [Materialize, a CSS Framework based on Material Design ](https://github.com/Dogfalo/materialize)构建
