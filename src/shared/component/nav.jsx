@@ -12,14 +12,14 @@ import {
 const Nav = () =>
   <nav className="nav-extended">
     <div className="nav-wrapper">
-      <ul className="hide-on-med-and-down blue accent-3 row">
+      <ul className="blue accent-3 row">
         {[
           { route: HOME_PAGE_ROUTE, label: 'Home' },
           { route: HELLO_PAGE_ROUTE, label: 'Say Hello' },
           { route: HELLO_ASYNC_PAGE_ROUTE, label: 'Say Hello Asynchronously' },
           { route: NOT_FOUND_DEMO_PAGE_ROUTE, label: '404 Demo' },
         ].map(link => (
-          <li key={link.route} className="tab col s3">
+          <li key={link.route} className="tab col s6 m6 l3">
             <NavLink to={link.route} exact className="flow-text center-align">{link.label}</NavLink>
           </li>
         ))}
