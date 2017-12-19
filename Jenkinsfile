@@ -12,15 +12,15 @@ pipeline {
         sh 'yarn'
       }
     }
-    stage('test') {
-        steps {
-            sh 'yarn test'
-        }
-    }
     stage('build') {
       steps {
         sh 'yarn prod:build'
       }
+    }
+    stage('test') {
+        steps {
+            sh 'yarn test'
+        }
     }
   }
 
